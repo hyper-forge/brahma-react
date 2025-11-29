@@ -2,6 +2,14 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and Brahma-Firelight (A Rust based high speed server writen on top of TOKIO)
 
+## Get Started!!
+
+```bash
+npm install
+npm run build
+npm run dev
+```
+
 ## To set API proxy during dev (vite.config.ts/js)
 
 ```js
