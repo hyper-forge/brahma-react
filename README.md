@@ -1,6 +1,6 @@
 # Brahma-Firelight + React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and Brahma-Firelight (A Rust based high speed server writen on top of TOKIO)
+This template provides a minimal setup to get React working in Vite with HMR and Brahma-Firelight (A Rust based high speed server writen on top of TOKIO & HYPER)
 
 ## Get Started!!
 
