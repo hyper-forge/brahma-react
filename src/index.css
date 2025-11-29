@@ -1,0 +1,36 @@
+/* ---- Clean global reset ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* root full height */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background: #0e0e0e; /* or your theme */
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* remove default link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* reset buttons */
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+/* safe container (does nothing unless used) */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}

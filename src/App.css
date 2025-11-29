@@ -1,0 +1,123 @@
+/* --- Container for the whole page --- */
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 24px;
+  background: #0e1014;
+}
+
+/* --- The main card --- */
+.card {
+  width: 100%;
+  max-width: 900px;
+
+  background: #151820;
+  border: 1px solid #242a38;
+  border-radius: 14px;
+  padding: 28px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.4);
+}
+
+/* Header text */
+.card-header {
+  text-align: center;
+}
+.card-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #4ade80;
+}
+.card-header .subtitle {
+  color: #b2b7c2;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+/* Center the button */
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+/* Primary button */
+.btn-primary {
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+
+  background: #4ade80;
+  color: #0d1a12;
+
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+.btn-primary:active {
+  transform: scale(0.97);
+}
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Response output */
+.output pre {
+  background: #0e1218;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #1f2533;
+  color: #7cffb2;
+
+  white-space: pre-wrap;
+  word-wrap: break-word;
+
+  min-height: 70px;
+  font-family: ui-monospace, "SF Mono", "Roboto Mono", monospace;
+  font-size: 0.9rem;
+}
+
+/* Iframe */
+.iframe-title {
+  text-align: center;
+  color: #b2b7c2;
+  font-size: 1.1rem;
+}
+
+/* Responsive iframe wrapper (16:9) */
+.iframe-wrapper {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #1f2533;
+  background: #10141c;
+
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .card {
+    padding: 18px;
+    gap: 14px;
+  }
+  .btn-primary {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+}
