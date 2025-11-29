@@ -23,4 +23,4 @@ export default defineConfig({
 });
 ```
 
-### Brahma-Firelight `Ultra Fast Rust-based JS framework` [Read Docs](https://shyam20001.github.io/rsjs/)
+### Brahma-Firelight `The Ultra Fast Rust based JavaScript Framework` [Read Docs](https://shyam20001.github.io/rsjs/)
